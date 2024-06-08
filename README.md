@@ -59,7 +59,3 @@ $ nodemon server.js
 $ cd client
 $ npm start
 ```
-
-## License
-
-This project is made available under the MIT License.
