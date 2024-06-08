@@ -2,8 +2,6 @@
 
 Twitter clone made using MERN Stack.
 
-![twitter-pic](twitter-pic.png)
-
 ## Features
 
 - Sign up/ Sign in via JWT Token
