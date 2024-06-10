@@ -382,6 +382,7 @@ input:focus {
 
 .sidebar-menu a:hover {
     background-color: rgb(229, 230, 231);
+    color: #1DA1F2;
 }
 
 .sidebar-menu-items {
@@ -401,6 +402,7 @@ input:focus {
 
 .title a:hover {
     background-color: rgba(0, 183, 255, 0.083);
+    
 }
 
 .tweet-list-item {
