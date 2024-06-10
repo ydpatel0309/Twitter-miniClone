@@ -395,6 +395,7 @@ input:focus {
 
 .sidebar-menu-items {
     padding: 3px 0;
+    font-weight: 600;
 }
 
 .title a {
@@ -419,6 +420,7 @@ input:focus {
     font-size: 1.1rem !important;
     padding: 10px 15px;
     width: 100%;
+    
 }
 
 .tweetBtn-link {

@@ -102,25 +102,25 @@ function Sidebar() {
         </li>
         <li className="sidebar-menu-items">
           <Link to="/feed">
-            <BiHome />
+            <BiHome size={30} />
             <div>Home</div>
           </Link>
         </li>
         <li className="sidebar-menu-items">
           <Link to={`/profile/${activeUser}`}>
-            <CgProfile />
+            <CgProfile size={30}/>
             <div>Profile</div>
           </Link>
         </li>
         <li className="sidebar-menu-items">
           <Link to={`/search`}>
-            <AiOutlineSearch />
+            <AiOutlineSearch size={30} />
             <div>Search</div>
           </Link>
         </li>
         <li onClick={logout} className="sidebar-menu-items">
           <Link to="/">
-            <GrLogout />
+            <GrLogout size={30}/>
             <div>Logout</div>
           </Link>
         </li>
