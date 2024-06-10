@@ -10,17 +10,12 @@ Twitter clone made using MERN Stack.
 - Comment
 - Retweet
 - Follow user
-- Like tweets and comments
-- Edit tweets and comments
-- Delete tweets and comments
+- Like tweets 
+- Edit tweets 
+- Delete tweets
 
-## Contribute
 
-### Prerequisites
-
-- node
-- npm
-- mongodb
+## To run this app
 
 1. Fork this repository
 2. Clone this repository
@@ -40,20 +35,15 @@ $ npm install
 
 ### Run the app
 
-1. Start mongodb locally
 
-```
-$ mongod
-```
-
-2. Start the server
+1. Start the server
 
 ```
 $ cd server
-$ nodemon server.js
+$ node server.js
 ```
 
-3. Start the client
+2. Start the client
 
 ```
 $ cd client

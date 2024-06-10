@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const moment = require("moment");
 const cors = require("cors");
-const { User, Tweet, Comment } = require("./models/Model");
+const { User, Tweet, Comment } = require("./models/Models");
 const app = express();
 const multer = require("multer");
 const { v4: uuidv4 } = require("uuid");
@@ -104,7 +104,7 @@ app.get("/feed", async (req, res) => {
                 docComment.likeCommentBtn = "black";
                 docComment.save();
               } else {
-                docComment.likeCommentBtn = "deeppink";
+                docComment.likeCommentBtn = "red";
                 docComment.save();
               }
             });
