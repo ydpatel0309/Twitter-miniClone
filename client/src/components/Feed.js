@@ -188,9 +188,7 @@ function Feed() {
               style={{ marginTop: "50px", marginLeft: "250px" }}
               class="loadingio-spinner-rolling-uzhdebhewyj"
             >
-              <div class="ldio-gkgg43sozzi">
-                <div></div>
-              </div>
+              
             </div>
           ) : (
             tweets.map(function (tweet) {

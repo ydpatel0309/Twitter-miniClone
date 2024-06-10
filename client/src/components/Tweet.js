@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Comment from "./Comment";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { AiOutlineRetweet, AiOutlineLike } from "react-icons/ai";
+import { AiOutlineRetweet, AiOutlineLike, AiOutlineHeart } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
 import { GoComment } from "react-icons/go";
 import { RiDeleteBin6Fill } from "react-icons/ri";
@@ -132,7 +132,7 @@ if (data.status === "ok") {
 
   const handleSetLike = () => {
     setLikeCount(likeCount + 1);
-    setBtnColor("deeppink");
+    setBtnColor("red");
   };
 
   const handleSetDisike = () => {
@@ -331,7 +331,7 @@ if (data.status === "ok") {
                   method="post"
                 >
                   <button>
-                    <AiOutlineLike />
+                    <AiOutlineHeart />
                     <div className="like-count">{likeCount}</div>
                   </button>
                 </form>
@@ -405,9 +405,7 @@ if (data.status === "ok") {
               style={{ marginTop: "50px", marginLeft: "250px" }}
               class="loadingio-spinner-rolling-uzhdebhewyj"
             >
-              <div class="ldio-gkgg43sozzi">
-                <div></div>
-              </div>
+             
             </div>
           ) : (
             comments.map(function (comment) {

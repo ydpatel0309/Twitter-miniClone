@@ -73,7 +73,6 @@ function HomeBody() {
     const token = localStorage.getItem("token");
     if (token) {
       const user = jwtDecode(token);
-      //user.exp in seconds and Date.now in milliseconds
       if (user.exp <= Date.now() / 1000) {
         localStorage.removeItem("token");
       } else {
@@ -90,7 +89,7 @@ function HomeBody() {
         </div>
         <br></br>
         <div className="homeContainer-header">
-          <h2>Sign in to Twitter</h2>
+          <h2>Login in to Twitter</h2>
         </div>
 
         

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlineLike } from "react-icons/ai";
+import { AiOutlineHeart, AiOutlineLike } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { BsThreeDots } from "react-icons/bs";
 import { RiDeleteBin6Fill } from "react-icons/ri";
@@ -195,7 +195,7 @@ function Comment(props) {
             method="post"
           >
             <button>
-              <AiOutlineLike />
+              <AiOutlineHeart />
               <div className="like-count">{likeCount}</div>
             </button>
           </form>
