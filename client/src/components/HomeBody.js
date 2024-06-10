@@ -124,7 +124,7 @@ function HomeBody() {
           ></input>
           <br></br>
           <button className="homeContainer-btn" type="submit">
-            Login in
+            Login
           </button>
         </form>
         <div className="homeContainer-signup">

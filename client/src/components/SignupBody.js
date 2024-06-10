@@ -99,7 +99,7 @@ function SignupBody() {
           </button>
         </form>
         <div className="homeContainer-signup">
-          Already have an account? <Link to="/">Login in</Link>
+          Already have an account? <Link to="/">Login</Link>
         </div>
       </div>
     </div>
