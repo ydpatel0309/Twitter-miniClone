@@ -1,5 +1,9 @@
 # MERN-Twitter-clone
 
+
+https://github.com/ydpatel0309/Twitter-miniClone/assets/91671051/c7c8ed4d-294c-439d-baf9-2987f7c61662
+
+
 Twitter clone made using MERN Stack.
 
 ## Features
@@ -41,11 +45,4 @@ $ npm install
 ```
 $ cd server
 $ node server.js
-```
-
-2. Start the client
-
-```
-$ cd client
-$ npm start
 ```
