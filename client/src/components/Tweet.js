@@ -45,16 +45,17 @@ function Tweet(props) {
     });
 
     const data = await req.json();
-    if (data.status === "ok") {
-      if (data.tweet.comments !== []) {
-        setComments(data.tweet[0].comments);
-        setTimeout(() => {
-          setLoading(false);
-        }, 300);
-      } else setComments([]);
-    } else {
-      alert(data.error);
-    }
+
+if (data.status === "ok") {
+  const comments = data.tweet.length > 0 ? data.tweet[0].comments : [];
+  setComments(comments);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 300);
+} else {
+  alert(data.error);
+}
   }
 
   useEffect(() => {
