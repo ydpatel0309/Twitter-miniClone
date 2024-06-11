@@ -10,6 +10,7 @@ Twitter clone made using MERN Stack.
 
 - Sign up/ Sign in via JWT Token
 - Customize account
+- Custimize profile
 - Tweet
 - Comment
 - Retweet
