@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const moment = require("moment");
 
+//userschema
 const userSchema = new mongoose.Schema({
   avatar: {
     type: String,
@@ -23,6 +24,8 @@ const userSchema = new mongoose.Schema({
   tweets: [{ type: mongoose.Schema.Types.ObjectId, ref: "Tweet" }],
 });
 
+
+//tweetsschema
 const tweetSchema = new mongoose.Schema(
   {
     content: {
@@ -72,6 +75,7 @@ const tweetSchema = new mongoose.Schema(
   }
 );
 
+//commentschema
 const commentSchema = new mongoose.Schema(
   {
     content: {
@@ -101,6 +105,7 @@ const commentSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
 
 const User = mongoose.model("User", userSchema);
 const Tweet = mongoose.model("Tweet", tweetSchema);
