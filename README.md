@@ -4,7 +4,13 @@
 https://github.com/ydpatel0309/Twitter-miniClone/assets/91671051/c7c8ed4d-294c-439d-baf9-2987f7c61662
 
 
-Twitter clone made using MERN Stack.
+The Mini Twitter Clone is a MERN (MongoDB, Express.js, React, Node.js) stack project that replicates core Twitter functionalities. Users can securely sign up and sign in using JWT tokens, customize their accounts and profiles, and post tweets. They can also interact with tweets by commenting, retweeting, liking, editing, and deleting them. The platform enables users to follow others, fostering a dynamic and interactive social media experience.
+
+
+
+
+
+
 
 ## Features
 
